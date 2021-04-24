@@ -1,3 +1,5 @@
+# while
+
 '''
 Ler vários números. Parar quando o usuário digitar zero.
 - quantos desses números possuem valor acima de 10
