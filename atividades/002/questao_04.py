@@ -26,7 +26,7 @@ def upper(st):
 # Função 04
 def isNum(st):
     for s in st:
-        if (s <= '0') or (s >= '9'):
+        if (s < '0') or (s > '9'):
             return False
     return True
 
