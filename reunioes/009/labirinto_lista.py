@@ -26,7 +26,7 @@ def caminho(lista):
     return True
 
 def vizinhos(vertice):
-    pass
+    return lista_adjacencias[vertice]
 
 def dfs(origem):
     pilha = []
@@ -62,3 +62,9 @@ montar()
 #imprimirMatriz()
 print(caminho([0,1,2,7,8]))
 print(caminho([0,1,2,7,9,8]))
+
+for i in range(28):
+    print(i, 26 in dfs(i))
+
+for i in range(28):
+    print(i, 26 in bfs(i))
